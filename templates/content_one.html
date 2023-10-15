@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя страница</title>
+    <!-- Подключение CSS файла -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="buttons">
+            <button class="btn" onclick="window.location.href='{{ url_for('show_table') }}'">Посмотреть таблицы</button>
+            <button class="btn" onclick="window.location.href='{{ url_for('content_two') }}'">Продолжить</button>
+        </div>
+    </div>
+
+    <!-- Подключение JS файла -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>

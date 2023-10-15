@@ -1,0 +1,1955 @@
+[
+    {
+        "name": "Банк ВТБ",
+        "address": "Российская ул., 10, Иркутск, Россия",
+        "category": "Банк",
+        "latitude": 52.284932,
+        "longitude": 104.275423,
+        "working_hours": {
+            "text": "пн-пт 09:00–19:00; сб 10:00–15:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "19:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                },
+                {
+                    "Intervals": [
+                        {
+                            "from": "10:00:00",
+                            "to": "15:00:00"
+                        }
+                    ],
+                    "Saturday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Банк ВТБ",
+        "address": "ул. Свердлова, 36, Иркутск, Россия",
+        "category": "Банк",
+        "latitude": 52.286597,
+        "longitude": 104.287884,
+        "working_hours": {
+            "text": "пн-пт 09:00–18:00; сб 10:00–15:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                },
+                {
+                    "Intervals": [
+                        {
+                            "from": "10:00:00",
+                            "to": "15:00:00"
+                        }
+                    ],
+                    "Saturday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Банк ВТБ",
+        "address": "ул. Декабрьских Событий, 85, Иркутск, Россия",
+        "category": "Банк",
+        "latitude": 52.285897,
+        "longitude": 104.305566,
+        "working_hours": {
+            "text": "пн-пт 09:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Банк ВТБ",
+        "address": "ул. Маяковского, 25, Иркутск, Россия",
+        "category": "Банк",
+        "latitude": 52.286122,
+        "longitude": 104.247391,
+        "working_hours": {
+            "text": "пн-пт 09:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Банк ВТБ",
+        "address": "ул. Ядринцева, 1/6, Иркутск, Россия",
+        "category": "Банк",
+        "latitude": 52.279627,
+        "longitude": 104.336511,
+        "working_hours": {
+            "text": "пн-пт 09:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Банк ВТБ",
+        "address": "Байкальская ул., 126/2, Иркутск, Россия",
+        "category": "Банк",
+        "latitude": 52.263423,
+        "longitude": 104.311485,
+        "working_hours": {
+            "text": "пн-пт 09:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Банк ВТБ",
+        "address": "ул. Лермонтова, 83, Иркутск, Россия",
+        "category": "Банк",
+        "latitude": 52.262615,
+        "longitude": 104.26149,
+        "working_hours": {
+            "text": "пн-пт 09:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Банк ВТБ",
+        "address": "ул. Лермонтова, 281/1, Иркутск, Россия",
+        "category": "Банк",
+        "latitude": 52.246976,
+        "longitude": 104.270285,
+        "working_hours": {
+            "text": "пн-пт 10:00–19:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "10:00:00",
+                            "to": "19:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Банк ВТБ",
+        "address": "19/1, микрорайон Юбилейный, Иркутск, Россия",
+        "category": "Банк",
+        "latitude": 52.227609,
+        "longitude": 104.303727,
+        "working_hours": {
+            "text": "пн-пт 10:00–19:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "10:00:00",
+                            "to": "19:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Сухэ-Батора, 7, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.287842,
+        "longitude": 104.282368,
+        "working_hours": {
+            "text": "ежедневно, 07:00–00:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "07:00:00",
+                            "to": "00:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Банк ВТБ",
+        "address": "Байкальская ул., 241, Иркутск, Россия",
+        "category": "Банк",
+        "latitude": 52.254831,
+        "longitude": 104.338879,
+        "working_hours": {
+            "text": "пн-пт 09:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Октябрьской Революции, 7, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.289318,
+        "longitude": 104.306019,
+        "working_hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+                {
+                    "TwentyFourHours": true,
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Ленина, 14, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.286976,
+        "longitude": 104.279646,
+        "working_hours": {
+            "text": "пн-пт 09:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Советская ул., 58/1, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.275331,
+        "longitude": 104.305734,
+        "working_hours": {
+            "text": "ежедневно, 10:00–22:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "10:00:00",
+                            "to": "22:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Карла Маркса, 7, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.278998,
+        "longitude": 104.280841,
+        "working_hours": {
+            "text": "пн-пт 09:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Октябрьской Революции, 7, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.28939,
+        "longitude": 104.30603,
+        "working_hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+                {
+                    "TwentyFourHours": true,
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Свердлова, 36, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.285986,
+        "longitude": 104.288751,
+        "working_hours": {
+            "text": "ежедневно, 09:00–21:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "21:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Дзержинского, 40, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.284791,
+        "longitude": 104.29708,
+        "working_hours": {
+            "text": "ежедневно, 10:00–20:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "10:00:00",
+                            "to": "20:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Чкалова, 14, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.287385,
+        "longitude": 104.273039,
+        "working_hours": {
+            "text": "пн-пт 09:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Российская ул., 10, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.284985,
+        "longitude": 104.27538,
+        "working_hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+                {
+                    "TwentyFourHours": true,
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Ленина, 11, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.280973,
+        "longitude": 104.282193,
+        "working_hours": {
+            "text": "пн-пт 09:00–20:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "20:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Франк-Каменецкого, 13, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.292802,
+        "longitude": 104.292781,
+        "working_hours": {
+            "text": "ежедневно, 09:00–23:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "23:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Пролетарская ул., 12, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.287067,
+        "longitude": 104.286046,
+        "working_hours": {
+            "text": "ежедневно, 09:00–20:30",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "20:30:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Рабочего Штаба, 12, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.303146,
+        "longitude": 104.298689,
+        "working_hours": {
+            "text": "ежедневно, 08:00–23:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "23:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Иркутск, предместье Глазково",
+        "category": "Банкомат",
+        "latitude": 52.289452,
+        "longitude": 104.24454,
+        "working_hours": {
+            "text": "пн-пт 09:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Декабрьских Событий, 85, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.285821,
+        "longitude": 104.305566,
+        "working_hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+                {
+                    "TwentyFourHours": true,
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Челнокова, 1, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.284295,
+        "longitude": 104.258357,
+        "working_hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+                {
+                    "TwentyFourHours": true,
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Марата, 19А, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.284968,
+        "longitude": 104.278315,
+        "working_hours": {
+            "text": "пн-пт 09:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Советская ул., 98, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.278596,
+        "longitude": 104.31744,
+        "working_hours": {
+            "text": "ежедневно, 09:00–20:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "20:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Партизанская ул., 36, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.279281,
+        "longitude": 104.302223,
+        "working_hours": {
+            "text": "ежедневно, 09:00–23:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "23:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Банк ВТБ",
+        "address": "ул. Новаторов, 3, корп. 3, Иркутск, Россия",
+        "category": "Банк",
+        "latitude": 52.351827,
+        "longitude": 104.209659,
+        "working_hours": {
+            "text": "пн-пт 09:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Литвинова, 18, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.28137,
+        "longitude": 104.293074,
+        "working_hours": {
+            "text": "пн-пт 10:00–19:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "10:00:00",
+                            "to": "19:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Ядринцева, 1/6, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.279577,
+        "longitude": 104.336554,
+        "working_hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+                {
+                    "TwentyFourHours": true,
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Рабочего Штаба, 29, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.30715,
+        "longitude": 104.297629,
+        "working_hours": {
+            "text": "пн-сб 09:30–19:30; вс 09:30–18:30",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:30:00",
+                            "to": "19:30:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true,
+                    "Saturday": true
+                },
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:30:00",
+                            "to": "18:30:00"
+                        }
+                    ],
+                    "Sunday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "2-я Железнодорожная ул., 78, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.278574,
+        "longitude": 104.250538,
+        "working_hours": {
+            "text": "ежедневно, 09:00–21:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "21:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Трудовая ул., 9, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.276971,
+        "longitude": 104.316638,
+        "working_hours": {
+            "text": "пн-пт 09:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Лермонтова, 81/1, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.264623,
+        "longitude": 104.25976,
+        "working_hours": {
+            "text": "ежедневно, 07:00–02:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "07:00:00",
+                            "to": "02:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Карла Либкнехта, 94, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.280421,
+        "longitude": 104.308423,
+        "working_hours": {
+            "text": "ежедневно, 07:00–00:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "07:00:00",
+                            "to": "00:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Банк ВТБ",
+        "address": "ул. Академика Образцова, 35, Иркутск, Россия",
+        "category": "Банк",
+        "latitude": 52.340072,
+        "longitude": 104.204875,
+        "working_hours": {
+            "text": "пн-пт 09:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Боткина, 1, стр. 1, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.289682,
+        "longitude": 104.249878,
+        "working_hours": {
+            "text": "ежедневно, 08:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Чернышевского, 4А, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.271716,
+        "longitude": 104.258594,
+        "working_hours": {
+            "text": "ежедневно, 08:00–21:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "21:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Трактовая ул., 35, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.329848,
+        "longitude": 104.236364,
+        "working_hours": {
+            "text": "ежедневно, 10:00–20:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "10:00:00",
+                            "to": "20:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Маяковского, 25, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.286022,
+        "longitude": 104.247439,
+        "working_hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+                {
+                    "TwentyFourHours": true,
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Рабочего Штаба, 9, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.301545,
+        "longitude": 104.29709,
+        "working_hours": {
+            "text": "пн-пт 09:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "2-я Железнодорожная ул., 28, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.284272,
+        "longitude": 104.247405,
+        "working_hours": {
+            "text": "ежедневно, 08:00–23:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "23:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Лермонтова, 78, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.270606,
+        "longitude": 104.255225,
+        "working_hours": {
+            "text": "ежедневно, 09:00–21:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "21:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Байкальская ул., 126/2, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.263456,
+        "longitude": 104.311396,
+        "working_hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+                {
+                    "TwentyFourHours": true,
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Депутатская ул., 84/1, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.264587,
+        "longitude": 104.32913,
+        "working_hours": {
+            "text": "ежедневно, 08:00–00:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "00:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Советская ул., 98, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.278489,
+        "longitude": 104.317468,
+        "working_hours": {
+            "text": "ежедневно, 08:00–23:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "23:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Сергеева, 3/5, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.265323,
+        "longitude": 104.227266,
+        "working_hours": {
+            "text": "ежедневно, 10:00–22:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "10:00:00",
+                            "to": "22:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Рабочего Штаба, 78, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.317743,
+        "longitude": 104.302557,
+        "working_hours": {
+            "text": "ежедневно, 08:00–23:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "23:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ, банкомат",
+        "address": "ул. Декабрьских Событий, 23, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.290731,
+        "longitude": 104.293439,
+        "working_hours": {
+            "text": "пн-пт 09:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Трилиссера, 80, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.27577,
+        "longitude": 104.32321,
+        "working_hours": {
+            "text": "ежедневно, 08:00–00:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "00:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Лермонтова, 281/1, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.246915,
+        "longitude": 104.270263,
+        "working_hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+                {
+                    "TwentyFourHours": true,
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Баррикад, 137, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.291615,
+        "longitude": 104.329775,
+        "working_hours": {
+            "text": "пн-пт 09:00–21:00; сб,вс 10:00–20:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "21:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                },
+                {
+                    "Intervals": [
+                        {
+                            "from": "10:00:00",
+                            "to": "20:00:00"
+                        }
+                    ],
+                    "Saturday": true,
+                    "Sunday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "2-я Железнодорожная ул., 25/1, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.285062,
+        "longitude": 104.247974,
+        "working_hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+                {
+                    "TwentyFourHours": true,
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Сергеева, с3, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.266313,
+        "longitude": 104.230687,
+        "working_hours": {
+            "text": "ежедневно, 10:00–20:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "10:00:00",
+                            "to": "20:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Депутатская ул., 44, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.272117,
+        "longitude": 104.321438,
+        "working_hours": {
+            "text": "ежедневно, 08:00–23:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "23:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Пискунова, 76, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.269552,
+        "longitude": 104.314171,
+        "working_hours": {
+            "text": "ежедневно, 08:00–00:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "00:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Баррикад, 63, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.293845,
+        "longitude": 104.31207,
+        "working_hours": {
+            "text": "ежедневно, 09:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "2-я Железнодорожная ул., 12/1, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.285867,
+        "longitude": 104.246285,
+        "working_hours": {
+            "text": "пн-пт 07:00–20:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "07:00:00",
+                            "to": "20:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Челябинская ул., 26, корп. 2, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.32629,
+        "longitude": 104.299089,
+        "working_hours": {
+            "text": "пн-пт 09:00–19:00; сб,вс 10:00–17:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "19:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                },
+                {
+                    "Intervals": [
+                        {
+                            "from": "10:00:00",
+                            "to": "17:00:00"
+                        }
+                    ],
+                    "Saturday": true,
+                    "Sunday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Трактовая ул., 35, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.329688,
+        "longitude": 104.23622,
+        "working_hours": {
+            "text": "ежедневно, 10:00–20:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "10:00:00",
+                            "to": "20:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Советская ул., 170, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.279557,
+        "longitude": 104.332672,
+        "working_hours": {
+            "text": "ежедневно, 08:00–23:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "23:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Волжская ул., 33, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.266003,
+        "longitude": 104.320883,
+        "working_hours": {
+            "text": "ежедневно, 08:00–23:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "23:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Байкальская ул., 109, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.266176,
+        "longitude": 104.311023,
+        "working_hours": {
+            "text": "пн-сб 08:00–20:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "20:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true,
+                    "Saturday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Волжская ул., 3, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.264308,
+        "longitude": 104.31312,
+        "working_hours": {
+            "text": "ежедневно, 09:00–20:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "20:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Баррикад, 129, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.291434,
+        "longitude": 104.326574,
+        "working_hours": {
+            "text": "ежедневно, 08:00–22:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "22:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Депутатская ул., 63/1, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.266605,
+        "longitude": 104.326893,
+        "working_hours": {
+            "text": "ежедневно, 07:00–23:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "07:00:00",
+                            "to": "23:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Лермонтова, 83, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.262443,
+        "longitude": 104.261373,
+        "working_hours": {
+            "text": "пн-пт 09:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Фрунзе, 32, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.309343,
+        "longitude": 104.308723,
+        "working_hours": {
+            "text": "пн-пт 08:00–19:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "19:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "41, микрорайон Университетский, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.255148,
+        "longitude": 104.248528,
+        "working_hours": {
+            "text": "ежедневно, 08:00–23:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "23:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "54, микрорайон Первомайский, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.254196,
+        "longitude": 104.234861,
+        "working_hours": {
+            "text": "ежедневно, 07:00–00:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "07:00:00",
+                            "to": "00:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Улан-Баторская ул., 16, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.253601,
+        "longitude": 104.24889,
+        "working_hours": {
+            "text": "ежедневно, 10:00–21:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "10:00:00",
+                            "to": "21:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Дальневосточная ул., 164/4, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.251263,
+        "longitude": 104.324106,
+        "working_hours": {
+            "text": "ежедневно, 08:00–23:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "23:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Лермонтова, 110, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.25661,
+        "longitude": 104.262253,
+        "working_hours": {
+            "text": "пн-пт 09:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Пискунова, 128, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.272208,
+        "longitude": 104.326404,
+        "working_hours": {
+            "text": "пн-пт 09:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Банк ВТБ",
+        "address": "ул. Новаторов, 3, Иркутск, Россия",
+        "category": "Банк",
+        "latitude": 52.360008,
+        "longitude": 104.208283,
+        "working_hours": ""
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Рабочего Штаба, 134/1, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.329261,
+        "longitude": 104.312371,
+        "working_hours": {
+            "text": "ежедневно, 08:00–23:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "23:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "39, микрорайон Топкинский, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.324585,
+        "longitude": 104.319876,
+        "working_hours": {
+            "text": "ежедневно, 08:00–23:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "23:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Лермонтова, 337, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.238591,
+        "longitude": 104.279886,
+        "working_hours": {
+            "text": "пн-пт 08:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "5, микрорайон Берёзовый, рабочий посёлок Маркова, Россия",
+        "category": "Банкомат",
+        "latitude": 52.225495,
+        "longitude": 104.25342,
+        "working_hours": {
+            "text": "ежедневно, 08:00–23:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "23:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "13/1, микрорайон Юбилейный, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.222236,
+        "longitude": 104.305762,
+        "working_hours": {
+            "text": "ежедневно, 08:00–01:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "01:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Лермонтова, 134, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.240056,
+        "longitude": 104.275031,
+        "working_hours": {
+            "text": "пн-пт 09:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "19/1, микрорайон Юбилейный, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.227286,
+        "longitude": 104.304755,
+        "working_hours": {
+            "text": "ежедневно, 08:00–23:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "23:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Станиславского, 2, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.264651,
+        "longitude": 104.335691,
+        "working_hours": {
+            "text": "пн-пт 09:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Фаворского, 1, Иркутск, Россия",
+        "category": "Банкомат",
+        "latitude": 52.241802,
+        "longitude": 104.269431,
+        "working_hours": {
+            "text": "пн-пт 09:00–18:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "18:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    }
+]
