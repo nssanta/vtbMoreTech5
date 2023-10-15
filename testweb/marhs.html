@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yandex Maps Example</title>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=YOUR_YANDEX_GEOCODER_KEY&lang=ru_RU" type="text/javascript"></script>
+    <style>
+        #map {
+            width: 100%;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Прокладывание маршрута от точки А до точки Б в Уссурийске</h1>
+    <div>
+        <label for="mode">Выберите способ передвижения: </label>
+        <select id="mode">
+            <option value="masstransit">Общественный транспорт</option>
+            <option value="pedestrian">Пешком</option>
+            <option value="auto">Автомобиль</option>
+        </select>
+        <button onclick="calculateRoute()">Найти маршрут</button>
+    </div>
+    <div id="map"></div>
+    <div id="routeInfo"></div>
+
+    <script>
+        var myMap;
+
+        ymaps.ready(init);
+
+        function init() {
+            myMap = new ymaps.Map("map", {
+                center: [43.7965, 131.9552], // Координаты Уссурийска
+                zoom: 12 // Уровень масштабирования карты
+            });
+        }
+
+        function calculateRoute() {
+            var mode = document.getElementById('mode').value;
+            var pointA = [43.7965, 131.9552]; // Точка А - Уссурийск
+            var pointB = [43.8000, 131.9500]; // Точка Б - Примерные координаты в Уссурийске
+
+            var routingMode;
+            var multiRoute;
+
+            if (mode === 'masstransit') {
+                routingMode = 'masstransit';
+                multiRoute = new ymaps.multiRouter.MultiRoute({
+                    referencePoints: [pointA, pointB],
+                    params: {
+                        routingMode: routingMode
+                    }
+                }, {
+                    boundsAutoApply: true
+                });
+            } else if (mode === 'pedestrian') {
+                routingMode = 'pedestrian';
+                multiRoute = new ymaps.multiRouter.MultiRoute({
+                    referencePoints: [pointA, pointB],
+                    params: {
+                        routingMode: routingMode
+                    }
+                }, {
+                    boundsAutoApply: true
+                });
+            } else if (mode === 'auto') {
+                routingMode = 'auto';
+                multiRoute = new ymaps.multiRouter.MultiRoute({
+                    referencePoints: [pointA, pointB],
+                    params: {
+                        routingMode: routingMode,
+                        avoidTrafficJams: true
+                    }
+                }, {
+                    boundsAutoApply: true
+                });
+            }
+
+            myMap.geoObjects.removeAll(); // Убираем старый маршрут с карты
+            myMap.geoObjects.add(multiRoute); // Добавляем новый маршрут на карту
+
+            // Выводим информацию о времени в пути и длине маршрута
+            var routeInfo = document.getElementById('routeInfo');
+            routeInfo.innerHTML = 'Длина маршрута: ' + (multiRoute.getLength() / 1000) + ' км<br>';
+            routeInfo.innerHTML += 'Время в пути: ' + (multiRoute.getHumanTime()) + '<br>';
+        }
+    </script>
+</body>
+</html>

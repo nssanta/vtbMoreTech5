@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ВТБ</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+     <div class="container">
+        <div class="content" id="menu">
+            <div class="input-group">
+                <p>Введите город на основе него <br>будет заполнена БД для тестирования</p>
+                <form action="/content_one" method="POST">
+                    <input type="text" id="user_input" name="user_input" placeholder="Введите город">
+                    <button type="submit">Продолжить</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+     <div class="stylish-text">Участник MORE.5.0Tech команда ITOne</div>
+
+</body>
+</html>

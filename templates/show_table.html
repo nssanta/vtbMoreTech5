@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ваши Таблицы</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body id="tableBody">
+    <h1>ServiceCategory</h1>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Имя</th>
+            <th>Время обслуживания (минуты)</th>
+        </tr>
+        {% for row in data['table1_data'] %}
+            <tr>
+                <td>{{ row[0] }}</td>
+                <td>{{ row[1] }}</td>
+                <td>{{ row[2] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <h1>Branches</h1>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Город</th>
+            <th>Имя</th>
+            <th>Категория</th>
+            <th>Адрес</th>
+            <th>Широта</th>
+            <th>Долгота</th>
+            <th>Время работы</th>
+        </tr>
+        {% for row in data['table2_data'] %}
+            <tr>
+                <td>{{ row[0] }}</td>
+                <td>{{ row[1] }}</td>
+                <td>{{ row[2] }}</td>
+                <td>{{ row[3] }}</td>
+                <td>{{ row[4] }}</td>
+                <td>{{ row[5] }}</td>
+                <td>{{ row[6] }}</td>
+                <td>{{ row[7] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <h1>QueueBank</h1>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Branch ID</th>
+            <th>Category ID</th>
+            <th>Время начала</th>
+            <th>Время окончания</th>
+        </tr>
+        {% for row in data['table3_data'] %}
+            <tr>
+                <td>{{ row[0] }}</td>
+                <td>{{ row[1] }}</td>
+                <td>{{ row[2] }}</td>
+                <td>{{ row[3] }}</td>
+                <td>{{ row[4] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

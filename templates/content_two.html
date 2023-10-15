@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Заявка на услуги</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=YOUR_YANDEX_GEOCODER_KEY" type="text/javascript"></script>
+    <script src="https://yandex.st/jquery/2.2.3/jquery.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <h1>Выберите услугу</h1>
+    <form id="service-form" >
+        <label for="address">Введите адрес:</label>
+        <input type="text" id="address" name="address" required><br>
+
+         <label class="checkbox-label">
+        <input type="checkbox" id="my_location_checkbox" name="my_location_checkbox">
+        Мое местоположение
+    </label>
+
+        <label for="service_type">Выберите тип услуги:</label>
+        <select id="service_type" name="service_type" required>
+            <option value="bank">Банк</option>
+            <option value="atm">Банкомат</option>
+        </select><br>
+
+        <div id="bank_services" class="hidden">
+            <label for="bank_services_list">Выберите вид услуги:</label>
+            <select id="bank_services_list" name="bank_services" required>
+                <option value="1">Кредитные услуги</option>
+                <option value="2">Депозиты</option>
+                <option value="3">Обмен валюты</option>
+                <option value="4">Консультации</option>
+                <option value="5">Открытие счета</option>
+                <option value="6">Услуги по картам</option>
+            </select><br>
+        </div>
+
+        <label for="urgency">Выберите срочность:</label>
+        <select id="urgency" name="urgency" required>
+            <option value="not-urgent">Не срочно</option>
+            <option value="wait">Потерпит</option>
+            <option value="urgent">Срочно</option>
+        </select><br>
+        <label for="go">Выберите средства передвижения:</label>
+        <select id="go" name="go" required>
+            <option value="auto">На автомобиле</option>
+            <option value="pedestrian">Пешеходный маршру</option>
+            <option value="masstransit">На общественном транспорте</option>
+        </select><br>
+        <label class="checkbox-label">
+        <input type="checkbox" id="select_time_checkbox" name="select_time_checkbox">
+        Выбрать время
+    </label>
+
+        <label for="time">Выберите время:</label>
+        <input type="time" id="time" name="time" disabled><br>
+
+        <button type="submit" onclick="service_load()">Продолжить</button>
+
+    </form>
+<script>
+  // Делаем обработку события, когда весь документ загружен
+document.addEventListener('DOMContentLoaded', function() {
+    // Получаем элементы из DOM
+    var myLocationCheckbox = document.getElementById('my_location_checkbox');
+    var serviceTypeDropdown = document.getElementById('service_type');
+    var bankServicesDiv = document.getElementById('bank_services');
+    var bankServicesList = document.getElementById('bank_services_list');
+    var selectTimeCheckbox = document.getElementById('select_time_checkbox');
+    var timeInput = document.getElementById('time');
+    var urgencyDropdown = document.getElementById('urgency');
+
+    // Показываем блок банковских услуг и делаем список доступным
+    bankServicesDiv.classList.remove('hidden');
+    bankServicesList.disabled = false;
+
+    // Добавляем обработчик события изменения состояния чекбокса "Мое местоположение"
+    myLocationCheckbox.addEventListener('change', function() {
+        // Получаем поле адреса из DOM
+        var addressInput = document.getElementById('address');
+        // Делаем поле адреса доступным или недоступным в зависимости от состояния чекбокса
+        addressInput.disabled = this.checked;
+    });
+
+    // Добавляем обработчик события изменения состояния выпадающего списка "Тип услуги"
+    serviceTypeDropdown.addEventListener('change', function() {
+        // Проверяем выбранный тип услуги
+        if (this.value === 'bank') {
+            // Если выбран тип "банк", показываем блок банковских услуг и делаем список доступным
+            bankServicesDiv.classList.remove('hidden');
+            bankServicesList.disabled = false; // делаем выбор вида услуги доступным
+        } else if (this.value === 'atm') {
+            // Если выбран тип "банкомат", скрываем блок банковских услуг и делаем список недоступным
+            bankServicesDiv.classList.add('hidden');
+            bankServicesList.disabled = true; // делаем выбор вида услуги недоступным
+        }
+    });
+
+    // Добавляем обработчик события изменения состояния чекбокса "Выбрать время"
+    selectTimeCheckbox.addEventListener('change', function() {
+        // Делаем поле ввода времени доступным или недоступным в зависимости от состояния чекбокса
+        timeInput.disabled = !this.checked;
+        // Делаем выпадающий список "Срочность" доступным или недоступным в зависимости от состояния чекбокса
+        urgencyDropdown.disabled = this.checked;
+    });
+});
+</script>
+</body>
+</html>

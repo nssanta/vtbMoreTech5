@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Банки</title>
+</head>
+<body>
+    <div id="banks-list"></div>
+
+    <script>
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                const banksListDiv = document.getElementById('banks-list');
+
+                // Перебираем объекты в массиве JSON и выводим информацию о банках
+                data.forEach(bank => {
+                    const bankDiv = document.createElement('div');
+                    bankDiv.innerHTML = `
+                        <h2>${bank.name}</h2>
+                        <p><strong>Адрес:</strong> ${bank.address}</p>
+                        <p><strong>Широта:</strong> ${bank.latitude}</p>
+                        <p><strong>Долгота:</strong> ${bank.longitude}</p>
+                        <p><strong>Рабочие часы:</strong> ${bank.working_hours.text}</p>
+                    `;
+                    banksListDiv.appendChild(bankDiv);
+                });
+            })
+            .catch(error => {
+                console.error('Ошибка загрузки файла:', error);
+            });
+    </script>
+</body>
+</html>

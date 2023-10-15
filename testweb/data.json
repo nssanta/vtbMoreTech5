@@ -1,0 +1,325 @@
+[
+    {
+        "name": "Банк ВТБ",
+        "address": "ул. Некрасова, 22, Уссурийск, Россия",
+        "latitude": 43.789054,
+        "longitude": 131.953954,
+        "working_hours": {
+            "text": "пн-пт 09:00–19:00; сб 10:00–15:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "19:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                },
+                {
+                    "Intervals": [
+                        {
+                            "from": "10:00:00",
+                            "to": "15:00:00"
+                        }
+                    ],
+                    "Saturday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "Банк ВТБ",
+        "address": "Вокзальная площадь, 3, Уссурийск, Россия",
+        "latitude": 43.802445,
+        "longitude": 131.979826,
+        "working_hours": {
+            "text": "пн-пт 09:00–19:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "19:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Горького, 43, Уссурийск, Россия",
+        "latitude": 43.796614,
+        "longitude": 131.943219,
+        "working_hours": {
+            "text": "ежедневно, 08:00–22:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "22:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Некрасова, 86, Уссурийск, Россия",
+        "latitude": 43.80193,
+        "longitude": 131.951045,
+        "working_hours": {
+            "text": "ежедневно, 08:00–22:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "22:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Некрасова, 22А, Уссурийск, Россия",
+        "latitude": 43.788728,
+        "longitude": 131.953677,
+        "working_hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+                {
+                    "TwentyFourHours": true,
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Некрасова, 86, Уссурийск, Россия",
+        "latitude": 43.80218,
+        "longitude": 131.950803,
+        "working_hours": {
+            "text": "ежедневно, 09:00–21:30",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "21:30:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Дзержинского, 93Б, Уссурийск, Россия",
+        "latitude": 43.810578,
+        "longitude": 131.935934,
+        "working_hours": {
+            "text": "пн-чт 10:00–21:00; пт,сб 10:00–22:00; вс 10:00–21:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "10:00:00",
+                            "to": "21:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true
+                },
+                {
+                    "Intervals": [
+                        {
+                            "from": "10:00:00",
+                            "to": "22:00:00"
+                        }
+                    ],
+                    "Friday": true,
+                    "Saturday": true
+                },
+                {
+                    "Intervals": [
+                        {
+                            "from": "10:00:00",
+                            "to": "21:00:00"
+                        }
+                    ],
+                    "Sunday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Чичерина, 105, Уссурийск, Россия",
+        "latitude": 43.792438,
+        "longitude": 131.961294,
+        "working_hours": {
+            "text": "ежедневно, 10:00–20:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "10:00:00",
+                            "to": "20:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Краснознамённая ул., 224А, Уссурийск, Россия",
+        "latitude": 43.813804,
+        "longitude": 131.953258,
+        "working_hours": {
+            "text": "ежедневно, 08:00–23:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "23:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Вокзальная площадь, 2, Уссурийск, Россия",
+        "latitude": 43.800758,
+        "longitude": 131.979592,
+        "working_hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+                {
+                    "TwentyFourHours": true,
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Александра Францева, 2А, Уссурийск, Россия",
+        "latitude": 43.789532,
+        "longitude": 131.977461,
+        "working_hours": {
+            "text": "ежедневно, 08:00–23:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "08:00:00",
+                            "to": "23:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Тургенева, 3, Уссурийск, Россия",
+        "latitude": 43.80185,
+        "longitude": 131.977815,
+        "working_hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+                {
+                    "TwentyFourHours": true,
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "просп. Блюхера, 19, Уссурийск, Россия",
+        "latitude": 43.807926,
+        "longitude": 131.982549,
+        "working_hours": {
+            "text": "ежедневно, круглосуточно",
+            "Availabilities": [
+                {
+                    "TwentyFourHours": true,
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "ул. Воровского, 131, Уссурийск, Россия",
+        "latitude": 43.808321,
+        "longitude": 131.99046,
+        "working_hours": {
+            "text": "ежедневно, 09:00–22:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "22:00:00"
+                        }
+                    ],
+                    "Everyday": true
+                }
+            ]
+        }
+    },
+    {
+        "name": "ВТБ",
+        "address": "Вокзальная площадь, 3, Уссурийск, Россия",
+        "latitude": 43.80243,
+        "longitude": 131.979951,
+        "working_hours": {
+            "text": "пн-пт 09:00–19:00",
+            "Availabilities": [
+                {
+                    "Intervals": [
+                        {
+                            "from": "09:00:00",
+                            "to": "19:00:00"
+                        }
+                    ],
+                    "Monday": true,
+                    "Tuesday": true,
+                    "Wednesday": true,
+                    "Thursday": true,
+                    "Friday": true
+                }
+            ]
+        }
+    }
+]
