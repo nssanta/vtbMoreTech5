@@ -28,8 +28,8 @@ class MySqlRun:
         self.password = password
         self.database = database
         self.scripts = scripts or []
-self.YANDEX_MAPS_API_KEY = 'YOUR_YANDEX_API_KEY'
-self.YANDEX_MAPS_API_KEY_GEOCODER = 'YOUR_YANDEX_GEOCODER_KEY'
+        self.YANDEX_MAPS_API_KEY = 'YOUR_YANDEX_API_KEY'
+        self.YANDEX_MAPS_API_KEY_GEOCODER = 'YOUR_YANDEX_GEOCODER_KEY'
 
     def run_creater(self):
         self.create_bd_tables()
@@ -84,7 +84,7 @@ self.YANDEX_MAPS_API_KEY_GEOCODER = 'YOUR_YANDEX_GEOCODER_KEY'
             latitude, longitude = city_coordinates
             bank_encoded = quote('ВТБ', safe='')
             # формируем URL для запроса к Yandex Maps API для поиска отделений банка ВТБ
-url = f"https://search-maps.yandex.ru/v1/?text={bank_encoded}&ll={longitude},{latitude}&spn=0.1,0.1&lang=ru_RU&apikey={self.YANDEX_MAPS_API_KEY}"
+            url = f"https://search-maps.yandex.ru/v1/?text={bank_encoded}&ll={longitude},{latitude}&spn=0.1,0.1&lang=ru_RU&apikey={self.YANDEX_MAPS_API_KEY}"
             # делаем запрос к API для получения информации о банковских отделениях
             response = requests.get(url)
             print("**** ", response," ****\n ",url)
