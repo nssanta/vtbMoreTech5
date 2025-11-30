@@ -25,7 +25,7 @@
 
 ## 🎥 Демонстрация
 
-**[▶️ Смотреть видео (GitHub Pages)](https://nssanta.github.io/vtbMoreTech5/)**
+**[▶️ Смотреть видео (GitHub Pages)](https://nssanta.github.io/VTB_MoreTech5_hackathon-2023/)**
 
 *Альтернатива:* [Прямая ссылка на видео](https://raw.githubusercontent.com/nssanta/vtbMoreTech5/main/vtb2023.mp4)
 
